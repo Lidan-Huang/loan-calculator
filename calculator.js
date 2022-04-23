@@ -1,7 +1,6 @@
 "use strict";
 // So we only have to do this once, find these elements in DOM
 const calcForm = document.getElementById("calc-form");
-
 let amountInput = document.getElementById("loan-amount");
 let yearsInput = document.getElementById("loan-years");
 let rateInput = document.getElementById("loan-rate");

@@ -1,3 +1,5 @@
+"use strict";
+
 it('should calculate the monthly rate correctly', function () {
   // ...
   expect(calcMonthlyPayment(500000, 30, 0.035)).toEqual("2245.22");
